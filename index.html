@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MA Salafiyah Kajen</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #a8e6cf, #dcedc1, #ffd3b6);
+            color: #2d5016;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+	.school-logo {
+	    width: 100px; /* Sesuaikan ukuran */
+	    height: 100px;
+	    margin: 0 auto 20px;
+	    border-radius: 50%; /* Opsional: buat bulat */
+	    object-fit: cover; /* Agar gambar tidak terdistorsi */
+	    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	}
+	
+        .subtitle {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+        
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin: 30px 0;
+        }
+        
+        .link-item {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 15px;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .link-item:hover {
+            background: rgba(255, 255, 255, 0.3);
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        .link-item h2 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+	.link-full {
+	    display: block; /* Agar link memenuhi seluruh div */
+	    text-decoration: none; /* Hilangkan garis bawah */
+	    color: inherit; /* Warisi warna teks */
+	    padding: 20px; /* Sesuaikan dengan padding div */
+	}
+        
+	.description {
+            font-size: 0.9rem;
+            margin-top: 30px;
+            line-height: 1.6;
+            opacity: 0.8;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            padding-top: 20px;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .link-item h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SAKAPOL</h1>
+	<img src="logo-sekolah.png" alt="Logo MA Salafiyah Kajen" class="school-logo">
+        <p class="subtitle">Portal Pelayanan Akses Cepat dan Terpadu MA Salafiyah Kajen</p>
+        
+        <div class="links-container">
+            <div class="link-item">
+                <h2>SAKASIA</h2>
+                <p>Sistem Informasi Akademik MA Salafiyah Kajen</p>
+            </div>
+            
+            <div class="link-item">
+		<a href="https://www.salafiyahkajen.id/profil-ma-salafiyah-kajen/" target="_blank" class="link-full">	               		 <h2>MA SALAFIYAH KAJEN</h2>
+               	 <p>Situs Resmi Sekolah</p>
+		</a>
+            </div>
+            
+            <div class="link-item">
+                <h2>IKLAS</h2>
+                <p>Portal Alumni MA Salafiyah Kajen</p>
+            </div>
+            
+            <div class="link-item">
+		 <a href="hhttps://www.salafiyahkajen.id/ppdb/" target="_blank" class="link-full">
+                <h2>SPMB</h2>
+                <p>Sistem Penerimaan Murid Baru</p>
+            </div>
+            
+            <div class="link-item">
+                <h2>SAKAMEDIA</h2>
+                <p>Galeri dan Media Sekolah</p>
+            </div>
+        </div>
+        
+        <p class="description">
+            Halaman ini dibuat untuk tugas Pelatihan Coding dan Kecerdasan Artifisial, LP Ma'arij Kadupalem Pali.
+        </p>
+        
+        <div class="footer">
+             Sakamedia © 2025 Susanto 
+        </div>
+    </div>
+</body>
+</html>
